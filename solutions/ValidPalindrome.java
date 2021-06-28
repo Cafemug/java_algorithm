@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 //https://leetcode.com/problems/valid-palindrome-ii/
-public class validPalindrome {
+public class ValidPalindrome {
     class Solution {
         public boolean validPalindrome(String s) {
             return isCheck(s, 0, s.length() - 1, 0);
