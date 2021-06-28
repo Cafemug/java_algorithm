@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+
+// https://leetcode.com/problems/pancake-sorting/
 public class pancakeSorting {
     class Solution {
         public List<Integer> pancakeSort(int[] arr) {
